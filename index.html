@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Fraternity Composite Generator</title>
+</head>
+<body>
+    <h1>Fraternity Composite Generator</h1>
+    <div>
+        <label for="logo">Upload Logo:</label>
+        <input type="file" id="logo" accept="image/png, image/jpeg">
+    </div>
+    <div>
+        <label for="headshots">Upload Headshots:</label>
+        <input type="file" id="headshots" multiple accept="image/png, image/jpeg">
+    </div>
+    <button id="generate">Generate Composite</button>
+    <a href="#" id="download" download="fraternity_composite.png" style="display: none;">Download Composite</a>
+    <script src="logic.js"></script>
+</body>
+</html>
